@@ -1,0 +1,299 @@
+/*begin header*/
+header{
+    background-color: #222222;
+}
+
+.container-black-friday{
+    padding: 0;
+}
+
+.blackfriday{
+    width: 100%;
+    background-color: #080100;
+}
+
+.row-infos{
+    color: white;
+    text-decoration: none;
+    margin: 0 0 0 280px;
+    font-size: 12px;
+}
+
+.row-infos li{
+    margin-right: 36px;
+    list-style: none;
+}
+
+.row-infos ul{
+    margin-bottom: 0rem;
+}
+
+.logo{
+    margin-left: 60px;
+}
+
+.input-search{
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    width: 380px;
+    height: 49px;
+}
+
+form .search-icon{
+    background-color: white;
+    height: 49px;
+    border-radius: 60px 0 0 60px;
+    padding-left: 4px;
+    width: 65px;
+}
+
+.search-icon::before{
+    content: url(../images/search-icon.png);
+    position: relative;
+    bottom: -10px;
+    width: 65px;
+}
+
+.btn-search{
+    background-color: #FF7800;
+    border-radius: 0 60px 60px 0;
+    text-transform: uppercase;
+    padding: 0 20px;
+    height: 49px;
+    border: none;
+    font-weight: bold;
+}
+
+.gfit-icon{
+    padding-left: 5px;
+}
+
+.gfit-icon::before{
+    content: url(../images/gfit-icon.webp);
+    position: relative;
+    color: white;
+    bottom: -9px;
+}
+
+.gfit-icon a{
+    color: white;
+    position: absolute;
+    padding-left: 10px;
+    text-decoration: none;
+} 
+
+.user-icon::before{
+    content: url(../images/user-icon.webp);
+    position: relative;
+    bottom: -10px;
+}
+
+.user-icon{
+    color: white;
+    padding-left: 34px;
+}
+
+.user-icon a{
+    color: #EF8B34;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.cart{
+    margin-top: -88px;
+    margin-left: 12px;
+}
+
+/*end header*/
+
+/*begin menu*/
+.menu{
+    background-color: #222222;
+    border-top: 6px solid #FF7800;
+}
+
+.menu a{
+    color: white;
+    margin-right: 18px;
+}
+
+.menu .active::before{
+    content: url(../images/hamburguer-menu-icon.webp);
+    position: relative;
+    padding-right: 10px;
+}
+
+.menu .active{
+    background-color: #2A2928;
+}
+
+#btn{
+    background-color: white;
+}
+/*end menu*/
+
+/*begin propaganda*/
+.propaganda{
+    background-color: black;
+}
+/*end propaganda*/
+
+/*begin carrossel-card*/
+h1{
+    margin: 24px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #212121;
+    font-family: "Sarabun",arial,sans-serif;
+}
+
+.card-title{
+    font-size: 14px;
+    color: #575757;
+    line-height: 1.4em;
+}
+
+.price{
+    font-size: 14px;
+    font-weight: bold;
+    color: #575757;
+}
+
+.promotion-price{
+    font-weight: bold;
+    color: #c75000;
+}
+
+.information-price{
+    font-size: 12px;
+    font-weight: bold;
+    color: #575757;
+}
+/*end carrossel-card*/
+
+/* begin form */
+.form{
+    background-color: #8B8B8B;
+    padding: 15px;
+}
+
+.form span{
+    background: #F7F7F7;
+    color: #575757;
+    height: 40px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    font-size: 12px;
+    position: relative;
+}
+
+.title-form h2{
+    font-family: 'NeoSans', Arial, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+}
+
+.input-text{
+    height: 40px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    margin-right: 10px;
+    font-size: 12px;
+    /* width: 100%; */
+}
+
+.btn{
+    background-color: #E0002B;
+    height: 40px;
+    width: 160px;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    font-family: 'NeoSans', Arial, sans-serif;
+}
+/* end form */
+
+/* begin footer */
+footer{
+    background-color: #F5F5F5;
+}
+
+.section-footer{
+    justify-content: space-around;
+}
+
+.title{
+    color: #212121;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.footer-sublist{
+    padding-top: 60px;
+    border-right: 1px solid #E6E6E6;
+    margin-right: 20px;
+}
+
+footer ul li{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #000;
+    list-style: none;
+}
+
+.mestre{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.copyright p{
+    font-size: 12px;
+    font-weight: bold;
+    color: #404040;
+}
+
+.copyright a{
+    font-size: 12px;
+    color: #404040;
+    text-decoration: none;
+}
+/* end footer */
+
+
+/* begin media-query */
+/* até 992px, desse valor pra baixo */
+@media (max-width: 992px){ 
+    header{
+        display: none;
+    }
+    
+    .navbar-brand{
+        display: block;
+    }
+
+    .carousel-item img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+/* com o mínimo de 992px, desse valor pra cima */
+@media (min-width: 992px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+
+
+
